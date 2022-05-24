@@ -1,0 +1,33 @@
+.container_fluid h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.content_items {
+  cursor: pointer;
+  max-width: 600px;
+}
+.content_items p {
+  color: #ad977b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-top: 10px;
+}
+.content_items_h3 {
+  color: #ad977b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  transition: all 0.5s ease;
+}
+.content_items img {
+  display: block;
+  max-width: 100%;
+  width: 550px;
+  object-fit: cover;
+  height: 380px;
+  padding-bottom: 15px;
+}
+
+.content_items:hover .content_items_h3 {
+  opacity: 0.5;
+}

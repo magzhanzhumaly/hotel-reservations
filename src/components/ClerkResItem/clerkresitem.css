@@ -1,0 +1,75 @@
+.rooms_list_wrapper {
+  width: 1140px;
+  max-width: 100%;
+  margin: 30px auto 0px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrapper_item {
+  width: 350px;
+  max-width: 100%;
+  margin-top: 50px;
+}
+.wrapper_item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.headingTop {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #898989;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.flexable_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3px;
+  padding: 10px;
+}
+.flexable_info p:nth-child(1) {
+  padding-top: 5px;
+}
+.flexable_info p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper_item ul {
+  margin-top: 10px;
+}
+.wrapper_item ul li::before {
+  content: url("../../assets/images/checked.png");
+  padding-right: 10px;
+}
+.wrapper_item ul li {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+.features_info {
+  padding: 10px;
+}
+.features_info li {
+  padding: 3px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #898989;
+  font-size: 12px;
+}
+.flexable_info select {
+  font-size: 16px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.image_control_admin {
+  width: 11px;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
